@@ -9,6 +9,8 @@ public class introduction {
 		System.setProperty("WebDriver.chrome.driver","C:\\Users\\scheb\\Downloads\\chromedriver_win32 (4)");
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://www.google.com/");
+	System.out.println(driver.getCurrentUrl());
+	driver.close();
 	
 		
 		
