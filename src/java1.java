@@ -6,7 +6,8 @@ public class java1 {
        int num =5 ;
        String name = "myfirstjava";
        char letter = 's';
-        System.out.println(num + "is the value");
+       double a = 2.22;
+        System.out.println(num  + " is the value. ");
        
 	}
 
